@@ -8,6 +8,5 @@ function showCurrentTime(){
     let minutes = date.getMinutes()
     let seconds = date.getSeconds()
     document.getElementById("time").innerText = hour + ":" + (minutes < 10 ? "0" : "") + minutes + ":" + (seconds < 10 ? "0" : "") + seconds
-   git a setTimeout(showCurrentTime, 1000)
+    setTimeout(showCurrentTime, 1000)
 }
-
