@@ -1,5 +1,4 @@
 function showCurrentTime(){
-    console.log("HIIIIIII")
     let date = new Date();
     let hour = date.getHours() 
     if(hour > 12){
